@@ -1,0 +1,78 @@
+body {
+ margin: 0;
+ padding: 10;
+ /*background: url(../Img/1.jpg) no-repeat center top;*/
+ /*background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);*/
+ background: url(img.jpg);
+ background-size: cover;
+ font-family: sans-serif;
+ height: 100vh;
+}
+
+.Pequeño-formulario {
+width: 320px;
+height: 420px;
+background: lightgray;
+color: rgb(0, 0, 0);
+top: 35%;
+left: 85%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+padding: 70px 30px;
+border-top-right-radius: 20%;
+border-bottom-left-radius: 20%;
+}
+
+.Pequeño-formulario label {
+margin: 0;
+padding: 0;
+font-weight: bold;
+display: block;
+}
+
+.Pequeño-formulario h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.Pequeño-formulario input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Pequeño-formulario input[type="text"],
+.Pequeño-formulario input[type="password"] {
+    border: none;
+    border-bottom: 1xp solid rgb(0, 17, 255);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #4a068a;
+    font-size: 16px;
+}
+
+.Pequeño-formulario input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #4a068a;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.Pequeño-formulario input[type="submit"]:hover {
+color: rgb(0, 0, 0);
+}
+
+.Pequeño-formulario a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: black;
+}
+.Pequeño-formulario a:hover {
+    color: rgb(18, 129, 51);
+}
